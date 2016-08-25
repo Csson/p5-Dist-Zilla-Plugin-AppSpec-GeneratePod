@@ -8,6 +8,7 @@ Dist::Zilla::Plugin::AppSpec::GeneratePod - Generate pod for an App::Spec'd app
     <a href="https://travis-ci.org/Csson/p5-Dist-Zilla-Plugin-AppSpec-GeneratePod"><img src="https://api.travis-ci.org/Csson/p5-Dist-Zilla-Plugin-AppSpec-GeneratePod.svg?branch=master" alt="Travis status" /></a>
     <a href="http://cpants.cpanauthors.org/release/CSSON/Dist-Zilla-Plugin-AppSpec-GeneratePod-0.0100"><img src="http://badgedepot.code301.com/badge/kwalitee/CSSON/Dist-Zilla-Plugin-AppSpec-GeneratePod/0.0100" alt="Distribution kwalitee" /></a>
     <a href="http://matrix.cpantesters.org/?dist=Dist-Zilla-Plugin-AppSpec-GeneratePod%200.0100"><img src="http://badgedepot.code301.com/badge/cpantesters/Dist-Zilla-Plugin-AppSpec-GeneratePod/0.0100" alt="CPAN Testers result" /></a>
+    <img src="https://img.shields.io/badge/coverage-95.1%-yellow.svg" alt="coverage 95.1%" />
     </p>
 </div>
 
