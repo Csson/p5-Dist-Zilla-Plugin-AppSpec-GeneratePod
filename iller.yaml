@@ -36,6 +36,8 @@ plugins:
      - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
      - cpanm https://github.com/Csson/App-Spec-p5/archive/0.0001.tar.gz --notest
 
+  - +remove_plugin: Test::Kwalitee::Extra
+
 ---
 doctype: weaver
 

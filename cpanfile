@@ -1,4 +1,4 @@
-# This file was auto-generated from iller.yaml by Dist::Iller on 2016-08-25 20:32:35 UTC.
+# This file was auto-generated from iller.yaml by Dist::Iller on 2016-08-25 20:38:17 UTC.
 
 on runtime => sub {
     requires 'App::Spec' => '0';
@@ -73,7 +73,6 @@ on develop => sub {
     requires 'Dist::Zilla::Plugin::Test::Compile' => '2.054';
     requires 'Dist::Zilla::Plugin::Test::EOF' => '0.0501';
     requires 'Dist::Zilla::Plugin::Test::EOL' => '0.18';
-    requires 'Dist::Zilla::Plugin::Test::Kwalitee::Extra' => 'v0.2.1';
     requires 'Dist::Zilla::Plugin::Test::NoTabs' => '0.15';
     requires 'Dist::Zilla::Plugin::Test::ReportPrereqs' => '0.021';
     requires 'Dist::Zilla::Plugin::Test::Version' => '1.05';
