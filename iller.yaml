@@ -16,15 +16,33 @@ prereqs:
   runtime:
     requires:
       - perl: 5.010000
+      - Moose
+      - namespace::autoclean
+      - Types::Standard
+      - Dist::Zilla::File::InMemory
+      - Dist::Zilla::Role::FileGatherer
+      - App::Spec
+  test:
+    requires:
+     - Test::DZil
+     - Path::Tiny
 
 plugins:
   - +config: Author::CSSON
+
+  - +extend_plugin: TravisYML
+    before_install:
+     - git config --global user.name "TravisCI"
+     - git config --global user.email $HOSTNAME":not-for-mail@travis-ci.org"
+     - cpanm https://github.com/perlpunk/App-Spec-p5
 
 ---
 doctype: weaver
 
 plugins:
   - +config: Author::CSSON
+
+  - +remove_plugin: SOURCE
 
 ---
 doctype: cpanfile
